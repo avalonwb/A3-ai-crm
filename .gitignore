@@ -1,0 +1,23 @@
+# VS Code 编辑器配置
+.vscode/
+
+# IntelliJ IDEA / WebStorm 等 JetBrains 编辑器配置
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 虚拟环境
+venv/
+env/
+.env/
+
+# 字节码编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 打包与构建
+dist/
+build/
+*.egg-info/
