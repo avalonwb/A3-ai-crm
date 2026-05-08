@@ -32,9 +32,9 @@ def get_vectorstore():
   return _vectorstore
 
 # 加载并分割文档
-def split_docs(doc_path):
+def split_docs(doc_path, doc_type = 'txt'):
   # 加载文档
-  documents = load_documents(doc_path = doc_path)
+  documents = load_documents(doc_path, doc_type)
 
   # 分割文档
   text_spliter = RecursiveCharacterTextSplitter(
